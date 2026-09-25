@@ -96,4 +96,43 @@ document.getElementById('saveBtn').addEventListener('click', () => {
     document.getElementById('inputName').value = '';
     document.getElementById('inputIP').value = '';
     document.getElementById('inputManufacturer').value = '';
+});// Chức năng đọc file CSV và cập nhật vào kho
+document.getElementById('importCsv').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(event) {
+        const text = event.target.result;
+        
+        // Tách từng dòng, bỏ qua dòng tiêu đề (dòng 1)
+        const rows = text.split('\n').slice(1); 
+        let newDevices = [];
+
+        rows.forEach((row, index) => {
+            if (!row.trim()) return;
+            
+            // Tách các cột bằng dấu phẩy
+            const cols = row.split(','); 
+            if (cols.length >= 5) {
+                newDevices.push({
+                    id: Date.now() + index,
+                    name: cols[0].trim(),
+                    ip: cols[1].trim(),
+                    manufacturer: cols[2].trim(),
+                    status: cols[3].trim(),
+                    type: cols[4].trim()
+                });
+            }
+        });
+
+        // Đẩy 600 dữ liệu mới vào kho cũ và lưu lên máy
+        devices = [...newDevices, ...devices];
+        localStorage.setItem('deviceData', JSON.stringify(devices));
+        
+        // Cập nhật lại màn hình
+        renderList(devices);
+        alert(`Đã tải lên thành công ${newDevices.length} thiết bị từ file!`);
+    };
+    reader.readAsText(file);
 });

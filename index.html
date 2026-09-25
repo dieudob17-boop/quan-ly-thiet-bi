@@ -48,7 +48,11 @@
             <p class="text-sm text-gray-500 mb-4" id="display-count">Hiển thị 0/0 thiết bị</p>
             <div id="deviceList" class="flex flex-col gap-4"></div>
         </div>
-
+<!-- Nút Nhập File CSV -->
+<label for="importCsv" class="fixed bottom-6 right-1/2 -translate-x-8 bg-green-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-700 flex items-center gap-2 font-bold z-10 cursor-pointer">
+    <i class="fa-solid fa-file-import"></i> Nhập File
+</label>
+<input type="file" id="importCsv" accept=".csv" class="hidden">
         <!-- Nút Thêm -->
         <button id="addBtn" class="fixed bottom-6 right-1/2 translate-x-32 bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 flex items-center gap-2 font-bold z-10">
             <i class="fa-solid fa-plus"></i> Thêm
