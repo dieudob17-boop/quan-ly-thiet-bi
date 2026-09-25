@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý MC/LBS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 flex justify-center">
+    <div class="w-full max-w-md bg-white min-h-screen relative shadow-lg">
+        
+        <!-- Header màu xanh -->
+        <div class="bg-blue-600 rounded-b-3xl p-5 pt-8 shadow-md">
+            <div class="flex items-center text-white mb-6">
+                <div class="w-10 h-10 bg-blue-500 rounded-lg flex justify-center items-center mr-3">
+                    <i class="fa-solid fa-bolt text-xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold">MC / LBS</h1>
+                    <p class="text-sm text-blue-200">Hệ thống tra cứu thiết bị</p>
+                </div>
+            </div>
+
+            <!-- Thống kê -->
+            <div class="grid grid-cols-3 gap-3 mb-6 text-center">
+                <div class="bg-blue-700/50 rounded-xl p-3 border border-blue-500 text-white">
+                    <div class="text-xs text-blue-200 flex justify-center items-center gap-1">MC</div>
+                    <div class="text-xl font-bold mt-1" id="count-mc">0</div>
+                </div>
+                <div class="bg-blue-700/50 rounded-xl p-3 border border-blue-500 text-white">
+                    <div class="text-xs text-blue-200 flex justify-center items-center gap-1">LBS</div>
+                    <div class="text-xl font-bold mt-1" id="count-lbs">0</div>
+                </div>
+                <div class="bg-blue-700/50 rounded-xl p-3 border border-blue-500 text-white">
+                    <div class="text-xs text-blue-200 flex justify-center items-center gap-1">Tổng</div>
+                    <div class="text-xl font-bold mt-1" id="count-total">0</div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-full p-1 flex items-center shadow-lg">
+                <i class="fa-solid fa-search text-gray-400 ml-4"></i>
+                <input type="text" id="searchInput" class="w-full py-2 px-3 outline-none rounded-full text-sm" placeholder="Tìm tên, IP, hãng, tình trạng...">
+            </div>
+        </div>
+
+        <!-- Danh sách thiết bị -->
+        <div class="p-5 pb-24">
+            <p class="text-sm text-gray-500 mb-4 font-medium" id="display-count">Nhập từ khóa để tìm kiếm...</p>
+            <div id="deviceList" class="flex flex-col gap-4"></div>
+        </div>
+
+        <!-- Nút Thêm -->
+        <button id="addBtn" class="fixed bottom-6 right-1/2 translate-x-32 bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 flex items-center gap-2 font-bold z-10">
+            <i class="fa-solid fa-plus"></i> Thêm
+        </button>
+
+        <!-- Nút Nhập File CSV -->
+        <label for="importCsv" class="fixed bottom-6 right-1/2 -translate-x-8 bg-green-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-700 flex items-center gap-2 font-bold z-10 cursor-pointer">
+            <i class="fa-solid fa-file-import"></i> Nhập File
+        </label>
+        <input type="file" id="importCsv" accept=".csv" class="hidden">
+
+        <!-- Modal Thêm thiết bị mới -->
+        <div id="addModal" class="hidden fixed top-0 left-0 w-full h-full bg-black/60 z-50 flex justify-center items-center">
+            <div class="bg-white p-6 rounded-2xl w-11/12 max-h-[90vh] overflow-y-auto">
+                <h2 class="text-xl font-bold mb-4 text-blue-700">Thêm thiết bị mới</h2>
+                
+                <label class="text-xs font-bold text-gray-500">Tên thiết bị</label>
+                <input type="text" id="inputName" class="w-full border p-2 rounded-lg mb-3 outline-none bg-gray-50">
+                
+                <label class="text-xs font-bold text-gray-500">Địa chỉ IP</label>
+                <input type="text" id="inputIP" class="w-full border p-2 rounded-lg mb-3 outline-none bg-gray-50">
+                
+                <label class="text-xs font-bold text-gray-500">Hãng sản xuất</label>
+                <input type="text" id="inputManufacturer" class="w-full border p-2 rounded-lg mb-3 outline-none bg-gray-50">
+                
+                <label class="text-xs font-bold text-gray-500">Loại thiết bị</label>
+                <select id="inputType" class="w-full border p-2 rounded-lg mb-3 outline-none bg-gray-50">
+                    <option value="MC">MC</option>
+                    <option value="LBS">LBS</option>
+                </select>
+                
+                <label class="text-xs font-bold text-gray-500">Tình trạng kết nối</label>
+                <select id="inputConnection" class="w-full border p-2 rounded-lg mb-3 outline-none bg-gray-50">
+                    <option value="Tốt">Tốt</option>
+                    <option value="Mất kết nối">Mất kết nối</option>
+                </select>
+
+                <label class="text-xs font-bold text-gray-500">Tình trạng vận hành</label>
+                <input type="text" id="inputOperation" placeholder="VD: Bình thường, Đã tháo..." class="w-full border p-2 rounded-lg mb-4 outline-none bg-gray-50">
+
+                <div class="flex justify-end gap-3 mt-2">
+                    <button id="cancelBtn" class="px-5 py-2 bg-gray-200 text-gray-700 rounded-lg font-bold">Hủy</button>
+                    <button id="saveBtn" class="px-5 py-2 bg-blue-600 text-white rounded-lg font-bold">Lưu lại</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

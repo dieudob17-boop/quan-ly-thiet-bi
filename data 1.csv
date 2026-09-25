@@ -1,0 +1,560 @@
+Tên thiết bị,ĐỊA CHỈ IP,Hãng SX,Kết nối,Tình trạng vận hành,Loại thiết bị
+375-7-52 Trường Lái,192.168.2.58,Schneider,Tốt,Tôt,MC
+382-7/119 Nà Viền,192.168.2.42,Schneider,Tốt,Nối tắt,LBS
+ 382-2 Xuân Trường (ĐMT),192.168.2.198,Schneider,Tốt,Đã tháo,LBs
+382-3 Hin Đón,192.168.1.70,Schneider,Tốt,Cháy tủ ĐK,MC
+371-7/148 Huổi Phù,192.168.3.34,Schneider,Tốt,Tôt,MC
+375-7-154-50 Đèo Chẹn,192.168.3.14,Schneider,Tốt,Nối tắt,LBS
+371-7/104/1 Đông Bâu,192.168.1.82,Schneider,Tốt,Đã tháo,LBs
+375-7/35/5 Chiềng Lương 2,192.168.3.6,Schneider,Tốt,Cháy tủ ĐK,MC
+375-7/115/60 Bó Hặc,192.168.1.78,Schneider,Tốt,Tôt,MC
+375-381 Phiêng Lanh (local),192.168.2.86,Schneider,Tốt,Nối tắt,LBS
+377-2 Huổi Phăng,192.168.1.170,Schneider,Tốt,Đã tháo,LBs
+377-103 Bản Kẻ,192.168.1.214,Schneider,Tốt,Cháy tủ ĐK,MC
+373/3 Hát Sét,192.168.3.18,Schneider,Tốt,Tôt,MC
+375-7-43 Bản Két,192.168.1.90,Schneider,Tốt,Nối tắt,LBS
+476-7-145B-50E Nà Mường,192.168.3.118,Schneider,Tốt,Đã tháo,LBs
+471-105 TK9,192.168.3.218,Schneider,Tốt,Cháy tủ ĐK,MC
+473-106 Hang Dơi,192.168.3.222,Schneider,Tốt,Tôt,MC
+372-92 Chiềng Ve,192.168.3.250,Schneider,Tốt,Nối tắt,LBS
+375/81/2 Bản Chang,192.168.7.186,ILJIN,Tốt,Đã tháo,LBs
+375-129 Bản Pàn,"192,168,16,66",Schneider,Tốt,Cháy tủ ĐK,MC
+371/4 Bản Đán,192.168.3.10,Schneider,Tốt,Tôt,MC
+473-7/191 TK 14,192.168.5.210,FTU SNS,Tốt,Nối tắt,LBS
+371-7/106 Bản Chông,192.168.6.82,FTU SNS,Tốt,Đã tháo,LBs
+371-7/125/3 Bản Pia,192.168.6.98,FTU SNS,Tốt,Cháy tủ ĐK,MC
+371-7/40 Bản Chiến,192.168.6.66,FTU SNS,Tốt,Tôt,MC
+371-7/70/42 Hua Chiến,192.168.6.102,FTU SNS,Tốt,Nối tắt,LBS
+375-7-38-2 Bó Cốp,192.168.1.222,FTU,Tốt,Đã tháo,LBs
+373-7/120/2 Bản Hượn,192.168.7.82,FTU SNS,Tốt,Cháy tủ ĐK,MC
+373-7/102 Chiềng Sàng,192.168.7.78,FTU SNS,Tốt,Tôt,MC
+472-7/71/1 NÀ BAI,192.168.7.206,ILJIN,Tốt,Nối tắt,LBS
+472-7/83/68 PHỤ MẪU,192.168.7.210,ILJIN,Tốt,Đã tháo,LBs
+ 472-127 Xuân Nha,192.168.2.202,Noja,Tốt,Cháy tủ ĐK,MC
+472-7/63/1 PÁ PUỘC,192.168.7.214,ILJIN,Tốt,Tôt,MC
+472-7/48/4 Hua Tạt,192.168.12.42,ILJIN,Tốt,Nối tắt,LBS
+472-7/59/60 Bó Nhàng,192.168.12.34,ILJIN,Tốt,Đã tháo,LBs
+472-7/92/4 Lũng Xá,192.168.7.226,ILJIN,Tốt,Cháy tủ ĐK,MC
+375-7/79/2 Huổi Hao,192.168.7.122,FTU SNS,Tốt,Tôt,MC
+ 472/26 TT Minh Thúy (KH),?,POWERSYS,Tốt,Nối tắt,LBS
+375-7/96B Bản Giàn,192.168.7.166,FTU SNS,Tốt,Đã tháo,LBs
+375-7/60/33 Bản Bắc,192.168.7.134,FTU SNS,Tốt,Cháy tủ ĐK,MC
+375-7/30/2 Bản Bắc,192.168.7.138,FTU SNS,Tốt,Tôt,MC
+375-7/41/3 Nong Phự,192.168.7.154,FTU SNS,Tốt,Nối tắt,LBS
+375-7/66 Bản Mòn,192.168.7.158,FTU SNS,Mất kết nối,Đã tháo,LBs
+371-7/15/2 Pá Xá,192.168.6.46,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+371-7/103/32 Nong Hoi,192.168.6.42,FTU SNS,Mất kết nối,Tôt,MC
+371-2 Mù Cang Chải,192.168.2.234,Schneider,Mất kết nối,Nối tắt,LBS
+332 TGVH,"192.168.11,202",Schneider,Mất kết nối,Đã tháo,LBs
+472 TGVH,"192.168.11,206",Schneider,Mất kết nối,Cháy tủ ĐK,MC
+412 TGVH,192.168.2.142,Schneider,Mất kết nối,Tôt,MC
+382-7/185/172 Két Nà,192.168.5.90,Shinsung,Mất kết nối,Nối tắt,LBS
+375-108 Mường Bú,192.168.1.166,Schneider,Mất kết nối,Đã tháo,LBs
+371-1 Chiềng Ân,192.168.2.194,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+377-7-140-3 Phiêng Phé,192.168.1.230,Schneider,Mất kết nối,Tôt,MC
+377-7-87-5 Bản Lứa,192.168.1.226,Schneider,Mất kết nối,Nối tắt,LBS
+374-15 Chiềng Khoa,192.168.3.94,Schneider,Mất kết nối,Đã tháo,LBs
+373/77/6 Tinh Bột Sắn,192.168.4.46,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+373-7/49 Huổi Ngà,192.168.7.58,FTU SNS,Mất kết nối,Tôt,MC
+371/2 Bản Tìn (KH),192.168.7.42,Schneider,Mất kết nối,Nối tắt,LBS
+373-255 Bản Khoa,192.168.3.74,Schneider,Mất kết nối,Đã tháo,LBs
+373-221 Suối Song,192.168.3.78,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+375-61-4 Huy Hạ,192.168.16.190,Schneider,Mất kết nối,Tôt,MC
+373-101 Bản Mòn,192.168.3.86,Schneider,Mất kết nối,Nối tắt,LBS
+378-165 Pắc Ngà,192.168.3.90,Schneider,Mất kết nối,Đã tháo,LBs
+373-168-10 Tiểu khu 2,192.168.11.158,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+375-222 Nà Xe,192.168.3.102,Schneider,Mất kết nối,Tôt,MC
+371-406 Bản Nhèm,192.168.11.162,Schneider,Tốt,Nối tắt,LBS
+375-391 Mường Do,192.168.3.110,Schneider,Tốt,Đã tháo,LBs
+375-6 Bản Cải,192.168.4.62,Schneider,Tốt,Cháy tủ ĐK,MC
+371-7/137/27 Chiềng Công,192.168.6.62,FTU SNS,Tốt,Tôt,MC
+373-107 Xín Vàng,192.168.3.122,Schneider,Tốt,Nối tắt,LBS
+373-1 Háng Đồng,192.168.3.126,Schneider,Tốt,Đã tháo,LBs
+371-1 Đồng Mã,192.168.5.6,Schneider,Tốt,Cháy tủ ĐK,MC
+371-1 Bản Pa Liên lạc,192.168.16.234,Schneider,Tốt,Tôt,MC
+375-124 Bản Lào,192.168.1.146,Schneider,Tốt,Nối tắt,LBS
+375-157 Bản Hụn,192.168.2.250,Schneider,Tốt,Đã tháo,LBs
+371-6 Bản Hỏm,192.168.9.30,Noja,Tốt,Cháy tủ ĐK,MC
+371-126 Nong Vai,192.168.1.178,Schneider,Tốt,Tôt,MC
+371-10 Pha Khuông,192.168.1.126,Schneider,Tốt,Nối tắt,LBS
+371-31 Co Mạ,192.168.1.110,Schneider,Tốt,Đã tháo,LBs
+375-5 Co Líu,192.168.1.206,Schneider,Tốt,Cháy tủ ĐK,MC
+375-4 Hua Cẩu,192.168.1.162,Schneider,Tốt,Tôt,MC
+375-184 Sao Và,192.168.1.198,Schneider,Mất kết nối,Nối tắt,LBS
+375-64 Ba Nhất,192.168.1.118,Schneider,Tốt,Đã tháo,LBs
+371-97 Hua Ty,192.168.1.182,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+373-3 Bình Thuận,192.168.1.142,Schneider,Tốt,Tôt,MC
+375/86/6 Phiêng Chanh,192.168.6.110,ENTEC,Mất kết nối,Nối tắt,LBS
+375-3 Bản Bai,192.168.1.158,Noja,Tốt,Đã tháo,LBs
+373-2 Phiêng Đồn,192.168.2.122,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+373-206 Nậm Ty ( cũ),192.168.2.126,Schneider,Tốt,Tôt,MC
+375-152 Bản Nhạp,192.168.2.134,Schneider,Mất kết nối,Nối tắt,LBS
+373-108 Nà Nghịu,192.168.2.138,Schneider,Tốt,Đã tháo,LBs
+373-4 Bang Búng,192.168.2.154,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+373-67 Mường Lầm,192.168.1.26,Schneider,Tốt,Tôt,MC
+375-289 Bản Pục,192.168.1.38,Schneider,Mất kết nối,Nối tắt,LBS
+371-53.167A Mường Lạn,192.168.1.2,Schneider,Tốt,Đã tháo,LBs
+373-1 Bản Nấu,192.168.4.58,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+371-22 Sổm Pói,192.168.1.30,Schneider,Tốt,Tôt,MC
+371-159 Bản Bánh,192.168.1.22,Schneider,Mất kết nối,Nối tắt,LBS
+371-67 Huổi Khăng,192.168.1.34,Cooper,Tốt,Đã tháo,LBs
+ 373/19 Anh Minh (ĐMT),?,POWERSYS,Mất kết nối,Cháy tủ ĐK,MC
+371-5 Bản Khá,192.168.4.30,Schneider,Tốt,Tôt,MC
+374-3 Chiềng Cọ,192.168.1.6,Schneider,Mất kết nối,Nối tắt,LBS
+374-3 Chiềng Đen,192.168.1.10,Schneider,Tốt,Đã tháo,LBs
+ 373/5/1 Tinh Bột Sắn,?,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+371-7/23/2 Đinh Lanh,192.168.6.58,FTU SNS,Tốt,Tôt,MC
+378/43/8 Bản Thẳm,192.168.17.46,Schneider,Mất kết nối,Nối tắt,LBS
+374-127 Phiêng Tam,192.168.1.18,Schneider,Tốt,Đã tháo,LBs
+473-161 Nà Cóng,192.168.10.247,FTU,Mất kết nối,Cháy tủ ĐK,MC
+473-1 Hua La,192.168.17.34,FTU,Tốt,Tôt,MC
+473-4 Vật Tư,192.168.2.74,FTU,Mất kết nối,Nối tắt,LBS
+ 471/1 Mường Thanh(KH),?,Schneider,Tốt,Đã tháo,LBs
+473-47 Bó Cằm,192.168.17.38,Noja,Mất kết nối,Cháy tủ ĐK,MC
+375-10 Bơm Nước,192.168.7.34,Schneider,Tốt,Tôt,MC
+371-7-137/75 Kho Lao,192.168.6.34,FTU SNS,Mất kết nối,Nối tắt,LBS
+478-72 Ka Láp,192.168.2.2,Noja,Tốt,Đã tháo,LBs
+371/137/2 Bản Cong,192.168.6.106,ENTEC,Mất kết nối,Cháy tủ ĐK,MC
+371-7/30/2 Chiềng Khoi,192.168.7.54,FTU SNS,Tốt,Tôt,MC
+372-7-88-2 To Láng,192.168.1.238,Schneider,Mất kết nối,Nối tắt,LBS
+372-7-83-2 Chiềng Xuân,192.168.11.222,Schneider,Tốt,Đã tháo,LBs
+374-7/144/3 Sầm Lầm,192.168.1.246,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+373-7/43/56 Mường Lựm,192.168.7.74,FTU SNS,Tốt,Tôt,MC
+474-1-15 Công Đoàn,192.168.5.54,BoHung,Mất kết nối,Nối tắt,LBS
+478-7/137 Bản Pát,192.168.4.2,Schneider,Tốt,Đã tháo,LBs
+472-7-59A Suối Lìn,192.168.4.250,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+372-104 Tân Xuân,192.168.3.182,Schneider,Tốt,Tôt,MC
+373-7/192/16 Páo Của,192.168.7.50,FTU SNS,Mất kết nối,Nối tắt,LBS
+371-7/87/48 Chiềng Hưng,192.168.7.66,FTU SNS,Tốt,Đã tháo,LBs
+371-7/87/81 Nà Liềng,192.168.7.70,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+375-7/106/2 Mường Bú,192.168.7.130,FTU SNS,Tốt,Tôt,MC
+371-7/162/2 Nà Lứa,192.168.6.38,FTU SNS,Mất kết nối,Nối tắt,LBS
+373-7/132/4 Kim Chung,192.168.7.46,FTU SNS,Tốt,Đã tháo,LBs
+371-7/103/2 Bản Chông,192.168.6.54,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+478-4 Vườn Đào,192.168.3.186,Noja,Tốt,Tôt,MC
+371-7/70/4 Bản Nong,192.168.6.50,FTU SNS,Mất kết nối,Nối tắt,LBS
+373-5 Tô Buông,192.168.3.22,Schneider,Tốt,Đã tháo,LBs
+371-7/62 Chiềng Pằn,192.168.3.2,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+376-7-103 Tắt Ngoẵn,192.168.11.226,Schneider,Tốt,Tôt,MC
+375-7-153-4 Bản Khún,192.168.1.54,Schneider,Mất kết nối,Nối tắt,LBS
+375-7-88-4 Hoàng Mã,192.168.1.58,Schneider,Tốt,Đã tháo,LBs
+373-7-271 Nà Pàn,192.168.1.50,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+375-7-173-2 Kiến Lâm,192.168.1.46,Schneider,Tốt,Tôt,MC
+378-7/43/72 Bản Sẳng ,192.168.3.130,Schneider,Mất kết nối,Nối tắt,LBS
+374-7-76 Bản Ái,192.168.1.234,Schneider,Tốt,Đã tháo,LBs
+373-7/60/37 Chiềng Đen,192.168.17.90,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+478-7-65-1 Ka Láp,192.168.17.50,FTU,Tốt,Tôt,MC
+474-7/29 Liên Lạc Chiềng Ngần(LL 474&478),192.168.2.14,FTU,Mất kết nối,Nối tắt,LBS
+473-7-158 Nà Cóng,192.168.10.253,FTU,Tốt,Đã tháo,LBs
+473-7-77 Quyết Tâm,192.168.17.54,FTU,Mất kết nối,Cháy tủ ĐK,MC
+374-7/14/47 Trại Bò,192.168.4.50,Schneider,Tốt,Tôt,MC
+473/7/71/34 Bản Nam,192.168.4.26,Schneider,Mất kết nối,Nối tắt,LBS
+473-7-128 Tổ 2 Q.Thắng,192.168.3.42,FTU,Tốt,Đã tháo,LBs
+373-1/36/55 Bản Bay,192.168.17.94,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+374-7/16 Nà Cạn,192.168.2.238,Schneider,Tốt,Tôt,MC
+374-7/14/1 Noong Đúc,192.168.17.66,Schneider,Mất kết nối,Nối tắt,LBS
+476-7/146 Nhà Nổi,192.168.2.242,Schneider,Tốt,Đã tháo,LBs
+476-7/180 Đô Thị,192.168.2.214,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+373-7-284 Bản Pót,192.168.3.158,Schneider,Tốt,Tôt,MC
+375-7-55 Nong Vai,192.168.3.162,Schneider,Mất kết nối,Nối tắt,LBS
+375-7-156 Bản Băm,192.168.3.166,Schneider,Tốt,Đã tháo,LBs
+373-7/221/83 Vàn 2,192.168.6.130,Bohung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/226/45 Bãi Tay,"192.168.9,18",Bohung,Tốt,Tôt,MC
+373-7/17/7 Chim thượng,192.168.9.22,Bohung,Mất kết nối,Nối tắt,LBS
+471-7/169 Bản Cang,192.168.16.124,Bohung,Tốt,Đã tháo,LBs
+373-7/196 Bản Pe,192.168.6.158,Bohung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/41/8 Nhan Loc,192.168.6.170,Bohung,Tốt,Tôt,MC
+373-7/234 Pua Luông,192.168.6.174,Bohung,Mất kết nối,Nối tắt,LBS
+471-7/144/3 TK 6,192.168.16.198,Bohung,Tốt,Đã tháo,LBs
+471-7/159/1 Bản Mo,192.168.6.186,Bohung,Mất kết nối,Cháy tủ ĐK,MC
+471-7/193 Bản Puôi,192.168.16.202,Bohung,Tốt,Tôt,MC
+471-7/137 TK2,192.168.16.58,Bohung,Mất kết nối,Nối tắt,LBS
+373-7/62/3 Cáo A,192.168.16.82,Bohung,Tốt,Đã tháo,LBs
+373-7/168/66 Cáo B,192.168.16.86,Bohung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/167 Y Tế Dự Phòng,192.168.16.122,Bohung,Tốt,Tôt,MC
+373-7/121/3 Pá Ỏng,192.168.16.130,Bohung,Mất kết nối,Nối tắt,LBS
+373-7/34/28 Suối Háo,192.168.6.118,Bohung,Tốt,Đã tháo,LBs
+373-7/20/6 Suối Chéo,192.168.16.106,Bohung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/339/5 Keo Bó,192.168.6.126,Bohung,Tốt,Tôt,MC
+373-7/255/3 NK Bản Khoa,192.168.6.142,Bohung,Mất kết nối,Nối tắt,LBS
+373-7/256/4 Bản Phố,192.168.6.154,Bohung,Tốt,Đã tháo,LBs
+373-7/36/2 Bản Lìn,192.168.3.170,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+374-115 Co Súc,192.168.3.190,Schneider,Tốt,Tôt,MC
+372-29 Nà Lùn,192.168.3.154,Cooper,Mất kết nối,Nối tắt,LBS
+371-7/59 Chiềng Chăn,192.168.4.54,Schneider,Tốt,Đã tháo,LBs
+382-30 NBMS,192.168.2.38,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+378-40 NBMS,192.168.2.254,Schneider,Tốt,Tôt,MC
+375-16 NMG,192.168.1.74,Schneider,Mất kết nối,Nối tắt,LBS
+382/52/47 Nà Tre,192.168.1.66,Schneider,Tốt,Đã tháo,LBs
+375/8/21 Nà Bó,192.168.2.46,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+382-3 Nà Ớt,192.168.1.62,Schneider,Tốt,Tôt,MC
+375-86 Tiểu Khu 32,192.168.2.54,Schneider,Mất kết nối,Nối tắt,LBS
+373/107 Tà Làng 1,192.168.3.26,Schneider,Tốt,Đã tháo,LBs
+374-63 Phú Khoa,192.168.3.174,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+374-8 Bản Dạo,192.168.3.254,Schneider,Tốt,Tôt,MC
+472-5 Bản Bon,192.168.3.210,Schneider,Mất kết nối,Nối tắt,LBS
+476-26 Tân lập,192.168.3.214,Noja,Tốt,Đã tháo,LBs
+372-104 Bản Chiềng Ve,192.168.3.178,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+472-9 Hang Trùng,192.168.3.230,Noja,Tốt,Tôt,MC
+476-2E Tân Hợp,192.168.3.234,Noja,Mất kết nối,Nối tắt,LBS
+375-7-269-50 Bản Tốm,192.168.1.114,Schneider,Tốt,Đã tháo,LBs
+375-7-21-10 Bản Cà,192.168.1.122,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+375-7/569 Phiêng Bay,192.168.6.2,FTU SNS,Tốt,Tôt,MC
+375-7512 Bản Giôn,192.168.6.6,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/533/2 Chiềng Khay,192.168.16.62,FTU SNS,Tốt,Đã tháo,LBs
+375-7/489/6 Mường Giôn,192.168.6.30,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+375-7/451/2 Huổi Ná,192.168.6.22,FTU SNS,Tốt,Tôt,MC
+375-7/470/75 Pá Ngà,192.168.6.14,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7-219 Bó Mạ,192.168.1.150,Schneider,Tốt,Đã tháo,LBs
+375-7/134/2 Muổi Nọi,192.168.6.26,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+375-7/121/51 Xi Măng,192.168.6.18,FTU SNS,Tốt,Tôt,MC
+375-7/52/1A Nhà Sày,192.168.5.218,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/49/3 Thẩm Phé,192.168.5.222,FTU SNS,Tốt,Đã tháo,LBs
+375-7-217-4 Nong Lay,192.168.1.154,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+371-7-46 Bản Nhộp,192.168.1.186,FTU,Tốt,Tôt,MC
+471-7-201-1 NM Nước TP,192.168.2.218,Schneider,Mất kết nối,Nối tắt,LBS
+474-7/77 Đăng kiểm,192.168.4.42,Schneider,Tốt,Đã tháo,LBs
+471-7/146 Bó Phứa,192.168.2.230,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+ 474/1 Bệnh Viện 500G(KH),,Shinsung,Tốt,Tôt,MC
+ 478/1 Thành Trung (ĐMT)(KH),192.168.3.66,FTU,Mất kết nối,Nối tắt,LBS
+374-9 Mường Tè,192.168.3.82,Schneider,Tốt,Đã tháo,LBs
+473-7-223 CA T.Phố,192.168.2.6,FTU,Mất kết nối,Cháy tủ ĐK,MC
+473-7-192 Xổ Số,192.168.2.34,FTU,Tốt,Tôt,MC
+476-7-78 Quyết Tâm,192.168.16.238,FTU,Mất kết nối,Nối tắt,LBS
+476-7-122 Đài T.Hình,192.168.2.26,FTU,Tốt,Đã tháo,LBs
+476/181 HOA BAN,192.168.17.74,FTU,Mất kết nối,Cháy tủ ĐK,MC
+471-178 NB Bản Cọ,192.168.4.66,Noja,Tốt,Tôt,MC
+471-111 TK1,192.168.3.242,Schneider,Mất kết nối,Nối tắt,LBS
+471-7/40 Liên Lạc(LL 471&478),192.168.2.170,FTU,Tốt,Đã tháo,LBs
+378/55/2 NMSXĐC,192.168.8.2,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+ 379/24/1 NM Phân Bón,192.168.4.154,Schneider,Tốt,Tôt,MC
+473-7/94/21 Mé Ban,192.168.17.58,FTU,Mất kết nối,Nối tắt,LBS
+ 474/45/1 Công An Tỉnh,192.168.6.114,Cooper,Tốt,Đã tháo,LBs
+374-53 Quyết Thắng,192.168.17.42,Noja,Mất kết nối,Cháy tủ ĐK,MC
+471-8 KDC số 5 Nam La,192.168.2.190,Schneider,Tốt,Tôt,MC
+478-3C TK 19-8,192.168.1.254,Schneider,Mất kết nối,Nối tắt,LBS
+472-91 Loong Luông,192.168.17.14,Schneider,Tốt,Đã tháo,LBs
+476-76B Pa Khen,192.168.1.174,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+ 375/30/2 Minh Thúy,,POWERSYS,Tốt,Tôt,MC
+378-7/65/55 KCNMS,192.168.4.18,Schneider,Mất kết nối,Nối tắt,LBS
+377-7/249/2 Huổi Chèo,192.168.7.198,FTU SNS,Tốt,Đã tháo,LBs
+377-7/282/2 Huổi Hốc,192.168.7.126,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+377-7/300/2 Nậm Giôn,192.168.7.202,FTU SNS,Tốt,Tôt,MC
+377-7/300/50 Vó Ngầu,192.168.16.74,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/53/2 Bản Nong,192.168.7.194,FTU SNS,Tốt,Đã tháo,LBs
+375-7/86/83 Bản Chang,192.168.7.190,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+375-7/81/17 Hồng Hin,192.168.7.146,FTU SNS,Tốt,Tôt,MC
+375-7/81/2B Tà Lừ,192.168.7.114,FTU SNS,Mất kết nối,Nối tắt,LBS
+377-28 Hua Nậm,192.168.1.86,Schneider,Tốt,Đã tháo,LBs
+ 378/8/2A Doveco Mai Sơn (KH),?,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+371-5 Bản Pa,192.168.3.134,Schneider,Tốt,Tôt,MC
+375-124 Bản Ban,192.168.11.174,Schneider,Mất kết nối,Nối tắt,LBS
+373-2 Tiểu Khu 1,192.168.3.138,Schneider,Tốt,Đã tháo,LBs
+373-7 Tà Đò,192.168.3.150,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+471/156 Bản Mo 1,192.168.17.2,ENTEC,Tốt,Tôt,MC
+375/142/12A Bản Thải,192.168.2.98,Noja,Mất kết nối,Nối tắt,LBS
+371-128 Suối Nhào,192.168.3.146,Schneider,Tốt,Đã tháo,LBs
+ 375/1 Suối Tọ (KH),?,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+371/1 Vạn Yên(  Cũ),?,Cooper,Tốt,Tôt,MC
+375-285 Bản Đông,192.168.5.2,Schneider,Mất kết nối,Nối tắt,LBS
+373/173A Mường Giàng,192.168.1.190,Schneider,Tốt,Đã tháo,LBs
+375-480 Bản Cút,192.168.1.202,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+375-5 Bản Ca,192.168.1.134,Schneider,Tốt,Tôt,MC
+375/86/3 Huổi Phày,192.168.1.218,Schneider,Mất kết nối,Nối tắt,LBS
+ 371/81/2 Trang trại Chiềng San( KH),192.168.5.98,Shinsung,Tốt,Đã tháo,LBs
+375/106/35 Bản Sang,192.168.1.94,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+371-77 Bản Noong,192.168.1.98,Schneider,Tốt,Tôt,MC
+375-10 Bản Búng,192.168.1.102,Schneider,Mất kết nối,Nối tắt,LBS
+377-7/279 Huổi Tao,192.168.16.70,FTU SNS,Tốt,Đã tháo,LBs
+375-7/86/47 Nà Tòng,192.168.7.174,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+377-60 Hua It,192.168.1.106,Schneider,Tốt,Tôt,MC
+375-74 Huổi Nụ,192.168.2.106,Schneider,Mất kết nối,Nối tắt,LBS
+377-7/238 Phiêng Phả,192.168.7.246,FTU,Tốt,Đã tháo,LBs
+371-140 Nong Quang,192.168.1.138,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+382-7/123/1 Bản Bít,192.168.12.30,Schneider,Tốt,Tôt,MC
+473-7/159/63 TĐ Nậm Chanh,192.168.17.98,FTU SNS,Mất kết nối,Nối tắt,LBS
+473-7/169 Tỉnh Ủy,192.168.10.248,FTU SNS,Tốt,Đã tháo,LBs
+LBS 471-7/146/2 Bó Phứa,192.168.4.110,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+LBS 471-7/227 Chiềng Xôm,192.168.17.70,FTU SNS,Tốt,Tôt,MC
+LBS 471-7/137/1 Nhà Thiếu Nhi,192.168.16.78,FTU SNS,Mất kết nối,Nối tắt,LBS
+LBS 473-7/142 Giảng Lắc,192.168.4.114,FTU SNS,Tốt,Đã tháo,LBs
+LBS 473-7/135 Liên lạc TG2.9 ( LL 473-476),192.168.4.94,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+LBS 473-7/31 Liên lạc (LL 473-476 E17.2),192.168.4.106,FTU SNS,Tốt,Tôt,MC
+LBS 478-7/7 Tổ 3 Chiềng Sinh,192.168.4.130,FTU SNS,Mất kết nối,Nối tắt,LBS
+LBS 471-7/2 Hẹo Phung,192.168.4.134,FTU SNS,Tốt,Đã tháo,LBs
+471-7/55 Chiềng ngần,192.168.4.90,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+473-7/111 Liên lạc (LL 473-476),192.168.4.126,FTU SNS,Tốt,Tôt,MC
+471-7/109/2 Dốc Đá TK1,192.168.4.86,FTU SNS,Mất kết nối,Nối tắt,LBS
+476-7/121/1 Đài truyền Hình,192.168.17.110,FTU SNS,Tốt,Đã tháo,LBs
+473-7/139 Tỉnh Đội,192.168.4.142,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+473-7/198/1 Tổ 5 Tô Hiệu,192.168.4.122,FTU SNS,Tốt,Tôt,MC
+473-7/205/1 Rặng Tếch,192.168.10.252,FTU SNS,Mất kết nối,Nối tắt,LBS
+473-7/174/1 Nậm La,192.168.4.78,FTU SNS,Tốt,Đã tháo,LBs
+473-7/12/1 Bản Là,192.168.16.186,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+LBS 478-7/71/41 Bản Thẳm,192.168.4.98,FTU SNS,Tốt,Tôt,MC
+473-7/159-21 Bản Pọng,192.168.17.62,FTU SNS,Mất kết nối,Nối tắt,LBS
+378-7-68-5A Xum Lo,192.168.12.38,Schneider,Tốt,Đã tháo,LBs
+378-7-83-3 Chiềng Mai,192.168.4.38,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+373-7/17 Thín Khá,192.168.3.30,Schneider,Tốt,Tôt,MC
+373-7/78 Tiểu khu 11,192.168.17.26,FTU,Mất kết nối,Nối tắt,LBS
+375-7/73/10 Phú Lương,192.168.16.206,FTU,Tốt,Đã tháo,LBs
+382-7/10 Trại Bò,192.168.2.22,FTU,Mất kết nối,Cháy tủ ĐK,MC
+382-7/40 Bản Dăm,192.168.17.30,FTU,Tốt,Tôt,MC
+373/86/2 Tiền Phong,192.168.2.246,Schneider,Mất kết nối,Nối tắt,LBS
+375/104/8 Bản Lếch,192.168.4.10,Schneider,Tốt,Đã tháo,LBs
+375/115/3 Cò Nòi,192.168.4.6,Schneider,Mất kết nối,Cháy tủ ĐK,MC
+471TGMS,192.168.2.130,Schneider,Tốt,Tôt,MC
+378-7/84 Nà Sản,192.168.12.22,Shinsung,Mất kết nối,Nối tắt,LBS
+375-7/115/31 Bình Minh,192.168.4.170,Shinsung,Tốt,Đã tháo,LBs
+373-7/77/60 Tằn Pầu,192.168.12.26,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+375-7/126/2 Bản Luồn,192.168.4.178,Shinsung,Tốt,Tôt,MC
+373-7/23/12 Nà Ỏ,192.168.16.242,Shinsung,Mất kết nối,Nối tắt,LBS
+382-7/52/2 Bản Áng,192.168.4.186/192.168.16.114,Shinsung,Tốt,Đã tháo,LBs
+371-7/85/9 Tong Chiêng,192.168.9.50,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+375-7/103 Bản Lếch,192.168.4.194,Shinsung,Tốt,Tôt,MC
+371-7/67/3 Tong Tải,192.168.4.198,Shinsung,Mất kết nối,Nối tắt,LBS
+371-7/53/58 Bản Búc,192.168.4.202,Shinsung,Tốt,Đã tháo,LBs
+375-7/5/66 Cáp Na,192.168.17.10,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+382 -7/52/103 Pom Sản (375-7/29/129 Cảng Tà Hộc cũ),192.168.4.210,Shinsung,Tốt,Tôt,MC
+375-7/62/1A Tiểu khu 1,192.168.16.102,Shinsung,Mất kết nối,Nối tắt,LBS
+378-7/232/2 Tưởng Niệm,192.168.4.218,Shinsung,Tốt,Đã tháo,LBs
+382-7/181 Nà Ớt,192.168.4.222,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/37/2A Bản Mạt,192.168.16.98,Shinsung,Tốt,Tôt,MC
+382-7/52/70 Bản Mé,192.168.4.230,Shinsung,Mất kết nối,Nối tắt,LBS
+382-7/65/2 Bản Mảy,192.168.4.234,Shinsung,Tốt,Đã tháo,LBs
+382-7/136/54 Pá Ban,192.168.4.238,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+382-7/51 Bản Áng,192.168.4.226,Shinsung,Tốt,Tôt,MC
+382-7/165/68 Lụm Cuông,192.168.4.246,Shinsung,Mất kết nối,Nối tắt,LBS
+382-7/110/3 Tàu Mông,192.168.4.254,Shinsung,Tốt,Đã tháo,LBs
+371/5 Liên lạc (Liên lạc 371-375),192.168.5.10,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+ 473/15/1 ĐT Trí Đức Mộc Châu,192.168.5.50,Schneider,Tốt,Tôt,MC
+373/55 Liên lạc (Liên lạc 373-375),192.168.5.14,Shinsung,Mất kết nối,Nối tắt,LBS
+375-7-110 Cò Nòi,192.168.5.18,Shinsung,Tốt,Đã tháo,LBs
+371-7/53/13 Chiềng Đen,192.168.5.22,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+373-7-239 Huổi của,192.168.5.62,BoHung,Tốt,Tôt,MC
+371/41A/8 Bản Nhộp,192.168.16.2,ENTEC,Mất kết nối,Nối tắt,LBS
+473-7/56/1 Chu Văn Thịnh,192.168.5.26,FTU,Tốt,Đã tháo,LBs
+371/84/2 Hua Ty,192.168.11.214,ENTEC,Mất kết nối,Cháy tủ ĐK,MC
+375-7/441/78 Bản Bon,192.168.6.74,FTU SNS,Tốt,Tôt,MC
+373/36/2 Bản Ngà,192.168.5.74,ENTEC,Mất kết nối,Nối tắt,LBS
+375-7/277/2 Bản Hậu,192.168.6.94,FTU SNS,Tốt,Đã tháo,LBs
+375-7-64/62A Bản Tăng,192.168.6.78,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+375-7/129/2A Tông Cọ,192.168.6.70,FTU SNS,Tốt,Tôt,MC
+375-7/342/2 Huổi Của,192.168.6.86,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/326 Lọng Đán,192.168.6.90,FTU SNS,Tốt,Đã tháo,LBs
+375-7/132/1 Mường Bon,192.168.7.142,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+375-7/13/2 Huổi Pản,192.168.7.102,FTU SNS,Tốt,Tôt,MC
+375-7/149/4 Bản Nhốc,192.168.7.162,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/106/13 Bó Mười,192.168.7.150,FTU SNS,Tốt,Đã tháo,LBs
+375-7/199/5 Co Phương,192.168.7.182,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+371-7/122/89A Mường Bám,192.168.16.6,BoHung,Tốt,Tôt,MC
+375-7/132/30 Nà Sành,192.168.7.178,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/106/201 Co Khiết,192.168.7.98,FTU SNS,Tốt,Đã tháo,LBs
+375-7-159/2 Mường Khiêng,192.168.7.110,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+375-7/177/2 Phắn Cướm,192.168.7.106,FTU SNS,Tốt,Tôt,MC
+473-7/69 TTGDTX,192.168.5.30,FTU,Mất kết nối,Nối tắt,LBS
+473-7/90 CA PCCC,192.168.5.34,FTU,Tốt,Đã tháo,LBs
+471-7/68 Cấp 3 Mai Sơn,192.168.5.38,FTU,Mất kết nối,Cháy tủ ĐK,MC
+471-7/80 Thị Trấn Mai Sơn,192.168.5.42,FTU,Tốt,Tôt,MC
+471-1/111 Ngã tư Nông Trường,192.168.5.46,FTU,Mất kết nối,Nối tắt,LBS
+371-7-53-64 Nà Vèn,192.168.16.218,Shinsung,Tốt,Đã tháo,LBs
+473-7/119/2 Bản Mòn,192.168.5.206,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+371-7-59-46 Bản Lạnh,192.168.9.42,Shinsung,Tốt,Tôt,MC
+371-7-68-2 Púng Báng,192.168.9.46,Shinsung,Mất kết nối,Nối tắt,LBS
+371-7-252 Bản Mạt,192.168.5.138,Shinsung,Tốt,Đã tháo,LBs
+478/19A/1 Đội 70,192.168.5.66,ENTEC,Mất kết nối,Cháy tủ ĐK,MC
+372-7-89 To Láng,192.168.16.110,Shinsung,Tốt,Tôt,MC
+376-7-106-2 Pa Phang,192.168.16.138,Shinsung,Mất kết nối,Nối tắt,LBS
+372-7-92-57 Co phương,192.168.5.110,Shinsung,Tốt,Đã tháo,LBs
+372-7-140 Buốc Phát,192.168.5.114,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+372-7-92-181 Xuân Nha,192.168.5.118,Shinsung,Tốt,Tôt,MC
+376-7/36/90 Bản Cóc,192.168.5.126,Shinsung,Mất kết nối,Nối tắt,LBS
+376-7-36-2 Bản Áng,192.168.5.142,Shinsung,Tốt,Đã tháo,LBs
+371-7-297-3 Sam Khoảng,192.168.16.126,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+371-7-52 Vi Ba,192.168.5.150,Shinsung,Tốt,Tôt,MC
+371-7-46-2 Bản Tông,192.168.5.154,Shinsung,Mất kết nối,Nối tắt,LBS
+371-7-139-2 Nong Phụ,192.168.16.142,Shinsung,Tốt,Đã tháo,LBs
+371-7-61-26 Huổi Niếng,192.168.5.162,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+371/59/14 Nậm Lạnh,192.168.5.166,Noja,Tốt,Tôt,MC
+371-7-53-3 Sốp Nặm,192.168.16.166,Shinsung,Mất kết nối,Nối tắt,LBS
+371-7-82-2 Nà Lừa,192.168.5.174,Shinsung,Tốt,Đã tháo,LBs
+371-7-99 Bản Cang,192.168.16.210,Shinsung,Mất kết nối,Cháy tủ ĐK,MC
+371-7-155-54 Bản Tỉa,192.168.9.38,Shinsung,Tốt,Tôt,MC
+371-7-169-2 Mường Lạn,192.168.17.18,Shinsung,Mất kết nối,Nối tắt,LBS
+373-7/87/2 UB Huyện,192.168.5.214,FTU SNS,Tốt,Đã tháo,LBs
+373-7/52/37 Đứa Luông,192.168.16.134,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/58/2 Huổi Lếch,192.168.6.222,BoHung,Tốt,Tôt,MC
+373-7/52/85 Hin Pén,192.168.6.242,BoHung,Mất kết nối,Nối tắt,LBS
+373-7/203/149 Bó Sinh,192.168.6.226,BoHung,Tốt,Đã tháo,LBs
+373-7/203/105 Hin Hụ,192.168.6.238,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/113/1 Pú Pẩu,192.168.6.254,BoHung,Tốt,Tôt,MC
+373-7/103/2 Co Muồng,192.168.7.2,BoHung,Mất kết nối,Nối tắt,LBS
+373-7/184/1 Huổi Pàn,192.168.7.26,BoHung,Tốt,Đã tháo,LBs
+373-7/246 Nà Tòng,192.168.17.22,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/337 Chiềng Phung,192.168.6.230,BoHung,Tốt,Tôt,MC
+373-7/379 Co Mạ,192.168.7.6,BoHung,Mất kết nối,Nối tắt,LBS
+373-7/264/4 Bản Pàn,192.168.6.202,BoHung,Tốt,Đã tháo,LBs
+373-7/132/2 Xum Côn,192.168.16.146,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/131/2 Cánh Kiến,192.168.7.14,BoHung,Tốt,Tôt,MC
+373-7/124 Nà Tấu,192.168.7.18,BoHung,Mất kết nối,Nối tắt,LBS
+373-7/42/2 To Hay,192.168.6.206,BoHung,Tốt,Đã tháo,LBs
+373-7/78 Lê Hồng Phong,192.168.9.26,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/105/2 Nà Hin,192.168.6.246,BoHung,Tốt,Tôt,MC
+373-7/241/57 Bản Chà,192.168.6.214,BoHung,Mất kết nối,Nối tắt,LBS
+373-7/24A Nậm Pù,192.168.7.10,BoHung,Tốt,Đã tháo,LBs
+373-7/179A Phiêng Xa,192.168.7.22,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/113/152 Con Khằm,192.168.7.62,FTU SNS,Tốt,Tôt,MC
+377-7/78/1 Liên Lạc,192.168.7.242,FTU SNS,Mất kết nối,Nối tắt,LBS
+371-7/206 Hin Phá,192.168.16.150,FTU,Tốt,Đã tháo,LBs
+374-1/51/18A TG 2/9,192.168.7.86,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+371-7/59 TG 2/9,192.168.7.90,FTU SNS,Tốt,Tôt,MC
+375-7/57/2 Bắc Cường,192.168.16.26,BoHung,Mất kết nối,Nối tắt,LBS
+375-7/113/2 Nam Tiến,192.168.16.38,BoHung,Tốt,Đã tháo,LBs
+375-7/72/2 Bản Bon,192.168.16.22,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+375-7/47/2 Bản Chao,192.168.16.10,BoHung,Tốt,Tôt,MC
+375-7/33/2 Chiềng Ngàm,192.168.16.14,BoHung,Mất kết nối,Nối tắt,LBS
+375-7/33/2 Nà Cưa,192.168.16.18,BoHung,Tốt,Đã tháo,LBs
+371-7/84/36 Nong Cốc,192.168.8.98,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+375-7/264 Chiềng Khoang,192.168.16.30,BoHung,Tốt,Tôt,MC
+375-7/76 Hua Là,192.168.16.34,BoHung,Mất kết nối,Nối tắt,LBS
+375-7/86/36 Bản Dẹ,192.168.16.42,BoHung,Tốt,Đã tháo,LBs
+372-7/246 A Má,192.168.8.106,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+371-7/143 Bản Mới,192.168.8.86,BoHung,Tốt,Tôt,MC
+371-7/153/27 Hát Khúa,192.168.8.82,BoHung,Mất kết nối,Nối tắt,LBS
+373-7/97/1 Bản Mòn,192.168.8.218,FTU SNS,Tốt,Đã tháo,LBs
+373-7/72/1 Suối Dinh,192.168.8.230,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+373-7/36/25 Suối Chèo,192.168.8.130,FTU SNS,Tốt,Tôt,MC
+371-7/329 Lái Ngài,192.168.8.118,FTU SNS,Mất kết nối,Nối tắt,LBS
+371-7/345 Co Muồng,192.168.8.214,FTU SNS,Tốt,Đã tháo,LBs
+371-7/313 Bãi Sại,192.168.8.154,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+372-7/175/1 Pù Lầu,192.168.8.178,FTU SNS,Tốt,Tôt,MC
+372-7/92/210 Bản Bướt,192.168.8.170,FTU SNS,Mất kết nối,Nối tắt,LBS
+371-7/223 Bắc Băn,192.168.8.234,FTU SNS,Tốt,Đã tháo,LBs
+371-7/103/48 Bản In,192.168.8.246,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+375-7/16/3 Bùa Chung,192.168.8.194,FTU SNS,Tốt,Tôt,MC
+375-7/52/1 To Thượng,192.168.8.146,FTU SNS,Mất kết nối,Nối tắt,LBS
+373-7/17/55 Hua Ngà,192.168.8.34,FTU SNS,Tốt,Đã tháo,LBs
+375-7/191/3 Mường Cơi,192.168.8.38,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+372-7/83/18 Sa Lai,192.168.8.126,FTU SNS,Tốt,Tôt,MC
+376-7/56 An Thái,192.168.8.138,FTU SNS,Mất kết nối,Nối tắt,LBS
+376-7/36/16 Tự Nhiên,192.168.8.162,FTU SNS,Tốt,Đã tháo,LBs
+372-7/58/1 Mường Sang,192.168.8.182,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+372-7/58/134 Suối Đôn,192.168.9.6,FTU SNS,Tốt,Tôt,MC
+372-7/54 Là Ngà,192.168.8.198,FTU SNS,Mất kết nối,Nối tắt,LBS
+473-7/55 Mường Thanh,"192,168,8,46",FTU SNS,Tốt,Đã tháo,LBs
+471-7/56 Mường Thanh,"192,168,9,10",FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+372-7/27A/1 Bản Áng 1,192.168.8.202,FTU SNS,Tốt,Tôt,MC
+372-7/4A/1 TK 77,192.168.8.142,FTU SNS,Mất kết nối,Nối tắt,LBS
+474-7/41 Bản Mòn,192.168.8.166,FTU SNS,Tốt,Đã tháo,LBs
+371-7/56 Tầm Ốc,192.168.8.158,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+373-7/28/1 Tà Xùa,192.168.8.222,FTU SNS,Tốt,Tôt,MC
+375-7/8/195 Lừm Hạ,192.168.8.254,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/317/2 Mường Lang,192.168.8.242,FTU SNS,Tốt,Đã tháo,LBs
+478-7/15 Đài Bay,192.168.8.114,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+471-7/11/14 Chè Mộc Châu,192.168.8.110,FTU SNS,Tốt,Tôt,MC
+478-7/14/47C Phiêng Tiến,192.168.8.30,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/496 Bản Bang,192.168.8.22,FTU SNS,Tốt,Đã tháo,LBs
+375-7/450/1 Chè Mè,192.168.8.18,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+375-7/458 Bản Trùng,192.168.8.14,FTU SNS,Tốt,Tôt,MC
+375-7/395/1 Han 1,192.168.8.238,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/109/52 Suối Tọ,192.168.8.226,FTU SNS,Tốt,Đã tháo,LBs
+375-7/36/2 Pu Khằm,192.168.8.250,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+374-7/40/1 San Hiềng,192.168.8.6,FTU SNS,Tốt,Tôt,MC
+374-7/64/103 Pưa Ta,192.168.8.42,FTU SNS,Mất kết nối,Nối tắt,LBS
+375-7/64/97A Bản Xanh,192.168.8.62,BoHung,Tốt,Đã tháo,LBs
+375-7/73/2 Xa Hòn,192.168.8.78,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+375-7/63/2 Huổi Kép,192.168.8.102,BoHung,Tốt,Tôt,MC
+472-7/54/5 Bó Nhàng 2,192.168.8.54,FTU SNS,Mất kết nối,Nối tắt,LBS
+472-7/86/1 Chua Tai,192.168.8.150,FTU SNS,Tốt,Đã tháo,LBs
+472-7/50 Sao Đỏ,192.168.8.26,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+472-7/122/2 Minh Thúy,192.168.8.210,FTU SNS,Tốt,Tôt,MC
+371-7/71 Huổi Pu,192.168.8.74,BoHung,Mất kết nối,Nối tắt,LBS
+472-7/5/1 Chè Đen,192.168.8.134,FTU SNS,Tốt,Đã tháo,LBs
+476-7/5 TK Cơ Quan,192.168.8.190,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+476-7/107 Đội 34,192.168.8.206,FTU SNS,Tốt,Tôt,MC
+476-7/153/24 TK 32,192.168.8.174,FTU SNS,Mất kết nối,Nối tắt,LBS
+476-7/213/6 Nà Mí,192.168.8.122,FTU SNS,Tốt,Đã tháo,LBs
+476-7/241 Sam Kha,192.168.8.186,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+373-7/75 Bình Thuận,192.168.16.54,BoHung,Tốt,Tôt,MC
+373-7/100 Mô Cổng,192.168.16.46,BoHung,Mất kết nối,Nối tắt,LBS
+373-7/30 Nà Ta,192.168.8.70,BoHung,Tốt,Đã tháo,LBs
+373-7/41/1 Màu Xá,192.168.8.90,BoHung,Mất kết nối,Cháy tủ ĐK,MC
+373-7/36/72 Mường É,192.168.8.66,BoHung,Tốt,Tôt,MC
+373-7/115/2 Phiêng Luông,192.168.16.50,BoHung,Mất kết nối,Nối tắt,LBS
+373-7/50/3 Bản Cát,192.168.8.94,BoHung,Tốt,Đã tháo,LBs
+472-7/61/7 TTHC Vân Hồ,192.168.8.10,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+374-7/130/11 Tàu Dầu,192.168.8.58,FTU SNS,Tốt,Tôt,MC
+374-7/188/1 Tà Phù,192.168.8.50,FTU SNS,Mất kết nối,Nối tắt,LBS
+374-7/61/210 Suối Nậu,192.168.9.2,FTU SNS,Tốt,Đã tháo,LBs
+472-7/118 Chiềng Thượng,192.168.9.14,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+371-7/53/103 Tà Đứng,192.168.16.158,FTU SNS,Tốt,Tôt,MC
+373/113/64 Nậm Rắng,192.168.11.198,ILJIN,Mất kết nối,Nối tắt,LBS
+373-7/113/117 Hang Mon,192.168.9.62,FTU SNS,Tốt,Đã tháo,LBs
+382-7/113/76 Bản Thẳm,192.168.9.58,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+382-7/113/2 Nà Viền,192.168.16.170,FTU SNS,Tốt,Tôt,MC
+382/86 Chiềng Dong,192.168.16.174,ILJIN,Mất kết nối,Nối tắt,LBS
+Bò sữa Mộc Châu,192.168.9.34,ENTEC,Tốt,Đã tháo,LBs
+382-7/161/2 Xà Liệt,192.168.16.162,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+373-7/115/3 Tà Làng 2,192.168.2.174,FTU,Tốt,Tôt,MC
+371-7/15/4 Pa Hốc,192.168.9.250,ILJIN,Mất kết nối,Nối tắt,LBS
+371-7/153/6A Bản Cát 2,192.168.11.18,ILJIN,Tốt,Đã tháo,LBs
+373/87 Lúm Púa,192.168.11.146,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+373-7/42A Tạng Phát,192.168.9.238,ILJIN,Tốt,Tôt,MC
+373-7/58/3 Nong Lào,192.168.9.226,ILJIN,Mất kết nối,Nối tắt,LBS
+373-7/85/47 Bản Bay,192.168.11.34,ILJIN,Tốt,Đã tháo,LBs
+373-7/36/49 Mầu Thái,192.168.11.38,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+373-7/60/1 Pá Ỏ,192.168.9.230,ILJIN,Tốt,Tôt,MC
+373-7/40/1 Phỏng Lập,192.168.11.26,ILJIN,Mất kết nối,Nối tắt,LBS
+374-7/101/2 Thống Nhất,192.168.9.210,ILJIN,Tốt,Đã tháo,LBs
+374-7/90/9 Nà Sài,192.168.9.186,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+374-7/123/3 Đoàn Kết,192.168.9.178,ILJIN,Tốt,Tôt,MC
+371-7/46/1A Pá Uổi,192.168.11.42,ILJIN,Mất kết nối,Nối tắt,LBS
+374-7/28/41 Bản Páng 1,192.168.9.106,ILJIN,Tốt,Đã tháo,LBs
+374-7/61/54 Chiềng Khoa,192.168.9.170,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+374-7/28/4C Nà Tén,192.168.9.214,ILJIN,Tốt,Tôt,MC
+371-7/81/2 Huổi Lạnh,192.168.11.22,ILJIN,Mất kết nối,Nối tắt,LBS
+371-7/22/31 Long Hẹ,192.168.9.254,ILJIN,Tốt,Đã tháo,LBs
+371-7/58/2 Nà Mành,192.168.9.222,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+371-7/79/1 Nà Tòng,192.168.11.10,ILJIN,Tốt,Tôt,MC
+374-7/61/136 Song Khủa,192.168.9.174,ILJIN,Mất kết nối,Nối tắt,LBS
+371-7/50/3A Cán Tỷ,192.168.11.46,ILJIN,Tốt,Đã tháo,LBs
+371-7/83/5 Pá Nó,192.168.9.246,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+371-7/61/122 Pó Mậu,192.168.11.2,ILJIN,Tốt,Tôt,MC
+374-7/64/54 Pưa Lai,192.168.9.218,ILJIN,Mất kết nối,Nối tắt,LBS
+374-7/51/1 Chiềng Đa,192.168.9.146,FTU SNS,Tốt,Đã tháo,LBs
+374-7/94/50 Bản Nhúng,192.168.9.202,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+374-7/55/29 Bản Lốm,192.168.9.74,FTU SNS,Tốt,Tôt,MC
+374-7/67/2 Nà Bai,192.168.9.94,FTU SNS,Mất kết nối,Nối tắt,LBS
+374-7/55/2 Pơ Tào,192.168.9.166,ILJIN,Tốt,Đã tháo,LBs
+374-7/94/69 Nà Bai 1,192.168.9.142,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+382-7/106 Bản Lầm,192.168.9.242,ILJIN,Tốt,Tôt,MC
+382-7/139/2 Pá Lầu,192.168.11.30,ILJIN,Mất kết nối,Nối tắt,LBS
+372-7/26/1 Chiềng Sơn,192.168.9.110,FTU SNS,Tốt,Đã tháo,LBs
+372-7/191/2 Suối Nón,192.168.9.190,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+372-7/92/206/1 Sai Lai,192.168.9.198,ILJIN,Tốt,Tôt,MC
+374/124 Kè Tèo,192.168.9.194,ILJIN,Mất kết nối,Nối tắt,LBS
+374-7/88/4 Nà Bó,192.168.9.102,FTU SNS,Tốt,Đã tháo,LBs
+374-7/160/1 Quy Hướng,192.168.9.182,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+373-7/174/1 Đốm Khiêu,192.168.9.234,ILJIN,Tốt,Tôt,MC
+373-7/193/2 Phiêng Nèn,192.168.11.14,ILJIN,Mất kết nối,Nối tắt,LBS
+374-7/61/1 Chiềng Khoa,192.168.9.78,FTU SNS,Tốt,Đã tháo,LBs
+374-7/52/1 Suối Kem,192.168.9.138,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+374-7/56 Suối Kem,192.168.9.206,FTU SNS,Tốt,Tôt,MC
+371-7/88/2 Pa Sang,192.168.11.6,ILJIN,Mất kết nối,Nối tắt,LBS
+476-7/93/2 Pa Khen,192.168.9.90,FTU SNS,Tốt,Đã tháo,LBs
+476-7/42/1 Đội 84,192.168.9.98,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+372-7/49/2 Nà Ngà,192.168.9.82,FTU SNS,Tốt,Tôt,MC
+372-7/132/1 Bản Trọng,192.168.9.162,ILJIN,Mất kết nối,Nối tắt,LBS
+476-7/5/1 Tầm Phế,192.168.9.130,FTU SNS,Tốt,Đã tháo,LBs
+372-7/76/4 Sò Lườn,192.168.9.122,FTU SNS,Mất kết nối,Cháy tủ ĐK,MC
+372-7/126/4 Cò Cháy,192.168.9.114,FTU SNS,Tốt,Tôt,MC
+377-7/30/1 Hua Nặm,192.168.11.54,ILJIN,Mất kết nối,Nối tắt,LBS
+377-7/33/68A Bản Bâu,192.168.11.86,ILJIN,Tốt,Đã tháo,LBs
+377-7/64/2 Bản Piệng,192.168.11.66,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+375-7/441/142 Bản Phướng,192.168.11.246,FTU SNS,Tốt,Tôt,MC
+474-7/20A/2 KM 70,192.168.9.118,FTU SNS,Mất kết nối,Nối tắt,LBS
+472-7/59/1 Piềng Chà,192.168.11.126,FTU SNS,Tốt,Đã tháo,LBs
+377-7/33/166 Đông Xuông,192.168.11.78,ILJIN,Mất kết nối,Cháy tủ ĐK,MC
+377-7/33/141 Lọng Cang,192.168.11.82,ILJIN,Tốt,Tôt,LBs
+377-7/159/2 Bản Phày,192.168.11.98,ILJIN,Mất kết nối,Nối tắt,MC
+375-7/553/23 Ít Ta Bót,192.168.11.238,FTU SNS,Tốt,Đã tháo,MC
