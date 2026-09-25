@@ -22,17 +22,18 @@
                 </div>
             </div>
 
+            <!-- Đã đổi thứ tự: REC/MC hiển thị trước, LBS hiển thị sau -->
             <div class="grid grid-cols-3 gap-3 mb-6 text-center">
                 <div class="bg-blue-700/50 rounded-xl p-3 border border-blue-500 text-white">
-                    <div class="text-xs text-blue-200 flex justify-center items-center gap-1"><span class="w-2 h-2 rounded-full bg-cyan-400"></span> LBS</div>
-                    <div class="text-xl font-bold mt-1" id="count-lbs">0</div>
-                </div>
-                <div class="bg-blue-700/50 rounded-xl p-3 border border-blue-500 text-white">
-                    <div class="text-xs text-blue-200 flex justify-center items-center gap-1"><span class="w-2 h-2 rounded-full bg-green-400"></span> REC/MC</div>
+                    <div class="text-xs text-blue-200 flex justify-center items-center gap-1">REC/MC</div>
                     <div class="text-xl font-bold mt-1" id="count-mc">0</div>
                 </div>
                 <div class="bg-blue-700/50 rounded-xl p-3 border border-blue-500 text-white">
-                    <div class="text-xs text-blue-200 flex justify-center items-center gap-1"><span class="w-2 h-2 rounded-full bg-orange-400"></span> Tổng</div>
+                    <div class="text-xs text-blue-200 flex justify-center items-center gap-1">LBS</div>
+                    <div class="text-xl font-bold mt-1" id="count-lbs">0</div>
+                </div>
+                <div class="bg-blue-700/50 rounded-xl p-3 border border-blue-500 text-white">
+                    <div class="text-xs text-blue-200 flex justify-center items-center gap-1">Tổng</div>
                     <div class="text-xl font-bold mt-1" id="count-total">0</div>
                 </div>
             </div>
@@ -45,18 +46,20 @@
 
         <!-- Danh sách thiết bị -->
         <div class="p-5 pb-24">
-            <p class="text-sm text-gray-500 mb-4" id="display-count">Hiển thị 0/0 thiết bị</p>
+            <p class="text-sm text-gray-500 mb-4" id="display-count">Nhập từ khóa để tìm kiếm...</p>
             <div id="deviceList" class="flex flex-col gap-4"></div>
         </div>
-<!-- Nút Nhập File CSV -->
-<label for="importCsv" class="fixed bottom-6 right-1/2 -translate-x-8 bg-green-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-700 flex items-center gap-2 font-bold z-10 cursor-pointer">
-    <i class="fa-solid fa-file-import"></i> Nhập File
-</label>
-<input type="file" id="importCsv" accept=".csv" class="hidden">
+
         <!-- Nút Thêm -->
         <button id="addBtn" class="fixed bottom-6 right-1/2 translate-x-32 bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 flex items-center gap-2 font-bold z-10">
             <i class="fa-solid fa-plus"></i> Thêm
         </button>
+
+        <!-- Nút Nhập File CSV -->
+        <label for="importCsv" class="fixed bottom-6 right-1/2 -translate-x-8 bg-green-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-700 flex items-center gap-2 font-bold z-10 cursor-pointer">
+            <i class="fa-solid fa-file-import"></i> Nhập File
+        </label>
+        <input type="file" id="importCsv" accept=".csv" class="hidden">
 
         <!-- Form nhập thiết bị mới (ẩn ban đầu) -->
         <div id="addModal" class="hidden absolute top-0 left-0 w-full h-full bg-black/50 z-20 flex justify-center items-center">
@@ -64,15 +67,21 @@
                 <h2 class="text-xl font-bold mb-4">Thêm thiết bị mới</h2>
                 <input type="text" id="inputName" placeholder="Tên (VD: LBS 471...)" class="w-full border p-3 rounded-lg mb-3 outline-none">
                 <input type="text" id="inputIP" placeholder="IP (VD: 172.16.0.1)" class="w-full border p-3 rounded-lg mb-3 outline-none">
+                
+                <!-- Đã đổi thứ tự: REC/MC trước -->
                 <select id="inputType" class="w-full border p-3 rounded-lg mb-3 outline-none">
-                    <option value="LBS">LBS</option>
                     <option value="REC/MC">REC/MC</option>
+                    <option value="LBS">LBS</option>
                 </select>
+                
                 <input type="text" id="inputManufacturer" placeholder="Hãng sản xuất" class="w-full border p-3 rounded-lg mb-3 outline-none">
+                
+                <!-- Đã bỏ chữ màu xanh đỏ đi -->
                 <select id="inputStatus" class="w-full border p-3 rounded-lg mb-4 outline-none">
-                    <option value="Bình thường">Bình thường (Màu xanh)</option>
-                    <option value="Cảnh báo">Mất kết nối (Màu đỏ)</option>
+                    <option value="Bình thường">Bình thường</option>
+                    <option value="Mất kết nối">Mất kết nối</option>
                 </select>
+
                 <div class="flex justify-end gap-2">
                     <button id="cancelBtn" class="px-4 py-2 text-gray-500 font-bold">Hủy</button>
                     <button id="saveBtn" class="px-4 py-2 bg-blue-600 text-white rounded-lg font-bold">Lưu vào kho</button>

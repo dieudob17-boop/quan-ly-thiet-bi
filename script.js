@@ -1,12 +1,4 @@
-// Dữ liệu mẫu ban đầu
-const defaultDevices = [
-    { id: 1, type: "LBS", name: "LBS 471E16.1/41a", ip: "172.16.0.59", manufacturer: "WSOS", status: "Bình thường" },
-    { id: 2, type: "REC/MC", name: "MC 471E16.1/41/2A", ip: "172.17.46.28", manufacturer: "WSOS", status: "Bình thường" },
-    { id: 3, type: "REC/MC", name: "MC 471E16.1/41/71A", ip: "172.16.0.196", manufacturer: "ENTEC", status: "Bình thường" }
-];
-
-// Lấy dữ liệu từ bộ nhớ máy tính, nếu không có thì lấy dữ liệu mẫu
-let devices = JSON.parse(localStorage.getItem('deviceData')) || defaultDevices;
+let devices = JSON.parse(localStorage.getItem('deviceData')) || [];
 
 const deviceListEl = document.getElementById('deviceList');
 const searchInput = document.getElementById('searchInput');
@@ -17,19 +9,23 @@ function renderList(dataToRender) {
     deviceListEl.innerHTML = '';
     
     dataToRender.forEach(device => {
-        const typeColor = device.type === 'LBS' ? 'text-green-600 bg-green-100' : 'text-teal-600 bg-teal-100';
-        const iconColor = device.status === 'Bình thường' ? 'text-green-500' : 'text-red-500';
+        // Cài đặt icon: REC/MC = vuông (fa-square), LBS = thoi (fa-diamond)
+        const iconShape = device.type === 'REC/MC' ? 'fa-square' : 'fa-diamond';
+        const typeColor = device.type === 'REC/MC' ? 'text-teal-600 bg-teal-100' : 'text-green-600 bg-green-100';
 
         const card = `
             <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex items-center justify-between">
                 <div class="flex items-center gap-4">
+                    <!-- Bỏ màu icon xanh/đỏ, chuyển thành màu xám trung tính -->
                     <div class="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center">
-                        <i class="fa-solid fa-diamond ${iconColor} text-2xl"></i>
+                        <i class="fa-solid ${iconShape} text-gray-500 text-2xl"></i>
                     </div>
                     <div>
                         <h3 class="font-bold text-gray-800 text-lg">${device.name}</h3>
-                        <div class="text-sm text-gray-500 flex items-center gap-3 mt-1">
-                            <span><i class="fa-solid fa-server"></i> ${device.manufacturer}</span>
+                        <div class="text-sm text-gray-500 flex flex-col gap-1 mt-1">
+                            <span><i class="fa-solid fa-server w-4"></i> Hãng: ${device.manufacturer}</span>
+                            <!-- Hiển thị rõ chữ Tình trạng vận hành -->
+                            <span><i class="fa-solid fa-wave-square w-4"></i> Trạng thái: <b>${device.status}</b></span>
                         </div>
                         <div class="text-sm text-gray-400 mt-1">${device.ip}</div>
                     </div>
@@ -43,18 +39,31 @@ function renderList(dataToRender) {
         deviceListEl.insertAdjacentHTML('beforeend', card);
     });
 
-    document.getElementById('display-count').textContent = `Hiển thị ${dataToRender.length}/${devices.length} thiết bị`;
+    // Cập nhật bộ đếm phía trên
+    if (searchInput.value.trim() === '') {
+        document.getElementById('display-count').textContent = `Nhập từ khóa để tìm kiếm... (Tổng kho: ${devices.length})`;
+    } else {
+        document.getElementById('display-count').textContent = `Tìm thấy ${dataToRender.length}/${devices.length} thiết bị`;
+    }
+    
     document.getElementById('count-total').textContent = devices.length;
     document.getElementById('count-lbs').textContent = devices.filter(d => d.type === 'LBS').length;
     document.getElementById('count-mc').textContent = devices.filter(d => d.type === 'REC/MC').length;
 }
 
-// Chạy lần đầu
-renderList(devices);
+// Chạy lần đầu: Truyền mảng rỗng [] để ẩn danh sách ban đầu, chỉ hiện bộ đếm
+renderList([]);
 
-// Chức năng Tìm kiếm
+// Chức năng Tìm kiếm (Nhập vào mới hiện)
 searchInput.addEventListener('input', (e) => {
-    const keyword = e.target.value.toLowerCase();
+    const keyword = e.target.value.toLowerCase().trim();
+    
+    // Nếu xóa hết chữ, danh sách sẽ tự ẩn đi
+    if (keyword === '') {
+        renderList([]);
+        return;
+    }
+
     const filteredDevices = devices.filter(device => 
         device.name.toLowerCase().includes(keyword) || 
         device.ip.toLowerCase().includes(keyword) ||
@@ -67,7 +76,7 @@ searchInput.addEventListener('input', (e) => {
 document.getElementById('addBtn').addEventListener('click', () => addModal.classList.remove('hidden'));
 document.getElementById('cancelBtn').addEventListener('click', () => addModal.classList.add('hidden'));
 
-// Chức năng Lưu
+// Chức năng Thêm thủ công 1 thiết bị
 document.getElementById('saveBtn').addEventListener('click', () => {
     const name = document.getElementById('inputName').value.trim();
     const ip = document.getElementById('inputIP').value.trim();
@@ -86,17 +95,21 @@ document.getElementById('saveBtn').addEventListener('click', () => {
         status: document.getElementById('inputStatus').value
     };
 
-    devices.unshift(newDevice); // Thêm vào danh sách
-    localStorage.setItem('deviceData', JSON.stringify(devices)); // Lưu vào máy
+    devices.unshift(newDevice); 
+    localStorage.setItem('deviceData', JSON.stringify(devices)); 
     
-    renderList(devices); // Cập nhật màn hình
-    addModal.classList.add('hidden'); // Ẩn cửa sổ
+    renderList([]); // Reset về giao diện rỗng sau khi thêm xong
+    searchInput.value = ''; // Xóa chữ trong ô tìm kiếm
+    addModal.classList.add('hidden'); 
     
-    // Xóa trắng form cũ
     document.getElementById('inputName').value = '';
     document.getElementById('inputIP').value = '';
     document.getElementById('inputManufacturer').value = '';
-});// Chức năng đọc file CSV và cập nhật vào kho
+    
+    alert("Đã thêm thành công!");
+});
+
+// Chức năng Nhập File CSV 600 thiết bị
 document.getElementById('importCsv').addEventListener('change', function(e) {
     const file = e.target.files[0];
     if (!file) return;
@@ -104,15 +117,12 @@ document.getElementById('importCsv').addEventListener('change', function(e) {
     const reader = new FileReader();
     reader.onload = function(event) {
         const text = event.target.result;
-        
-        // Tách từng dòng, bỏ qua dòng tiêu đề (dòng 1)
         const rows = text.split('\n').slice(1); 
         let newDevices = [];
 
         rows.forEach((row, index) => {
             if (!row.trim()) return;
             
-            // Tách các cột bằng dấu phẩy
             const cols = row.split(','); 
             if (cols.length >= 5) {
                 newDevices.push({
@@ -126,12 +136,10 @@ document.getElementById('importCsv').addEventListener('change', function(e) {
             }
         });
 
-        // Đẩy 600 dữ liệu mới vào kho cũ và lưu lên máy
         devices = [...newDevices, ...devices];
         localStorage.setItem('deviceData', JSON.stringify(devices));
         
-        // Cập nhật lại màn hình
-        renderList(devices);
+        renderList([]); // Cập nhật lại số lượng ở Header nhưng vẫn giữ màn hình rỗng
         alert(`Đã tải lên thành công ${newDevices.length} thiết bị từ file!`);
     };
     reader.readAsText(file);
